@@ -10,8 +10,8 @@ class App < Sinatra::Base
 		erb :index
 	end
 
-	get "/date" do
+	get '/date' do
 		erb :info
 	end
-	
+
 end
