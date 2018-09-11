@@ -14,5 +14,5 @@ class App < Sinatra::Base
 	get '/date' do
 		erb :info
 	end
-
+	
 end
