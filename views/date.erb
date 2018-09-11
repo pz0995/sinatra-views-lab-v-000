@@ -1,7 +1,5 @@
 <h1>Today</h1>
 
 <p>
-puts "The day is " strftime [%A, %B %d, %Y']
+The day is <%= Time.now.strftime('%A, %B %d, %Y') %>
 </p>
-
-DateTime.now
